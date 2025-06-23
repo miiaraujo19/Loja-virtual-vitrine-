@@ -67,3 +67,80 @@ footer {
   background: #eee;
   margin-top: 2rem;
 }
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f0ff, #b3d1ff);
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0059b3;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Vitrine */
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+
+/* Produto */
+.produto {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.produto:hover {
+  transform: scale(1.03);
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.produto h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #003366;
+}
+
+.produto p {
+  color: #0077cc;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.produto button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.produto button:hover {
+  background-color: #005fa3;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #d6eaff;
+  color: #003366;
+}
